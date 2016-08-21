@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.cmx.intelix.CmxValidationFrameworkApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.64 sec <<< FAILURE! - in com.cmx.intelix.CmxValidationFrameworkApplicationTests
+testPersonAge(com.cmx.intelix.CmxValidationFrameworkApplicationTests)  Time elapsed: 0.286 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.cmx.intelix.CmxValidationFrameworkApplicationTests.testPersonAge(CmxValidationFrameworkApplicationTests.java:36)
+

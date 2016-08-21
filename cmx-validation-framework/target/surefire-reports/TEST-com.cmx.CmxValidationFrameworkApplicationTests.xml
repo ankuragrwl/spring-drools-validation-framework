@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cmx.intelix.CmxValidationFrameworkApplicationTests" time="0.009" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\shekharp\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\shekharp\Desktop\devspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8456578618842198566.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\shekharp\Downloads;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\shekharp"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="shekharp"/>
+    <property name="java.class.path" value="/C:/Users/shekharp/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="com.cmx.intelix.CmxValidationFrameworkApplicationTests" time="0.009">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:392)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:156)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:116)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:74)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[08:53:41.678 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cmx.intelix.CmxValidationFrameworkApplicationTests]
+08:53:41.687 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:53:41.700 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:53:41.725 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+08:53:41.740 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests], using SpringBootContextLoader
+08:53:41.743 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: class path resource [com/cmx/CmxValidationFrameworkApplicationTests-context.xml] does not exist
+08:53:41.744 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: class path resource [com/cmx/CmxValidationFrameworkApplicationTestsContext.groovy] does not exist
+08:53:41.744 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:53:41.745 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: CmxValidationFrameworkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:53:41.786 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]
+08:53:41.829 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+08:53:41.829 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+08:53:41.829 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+08:53:41.838 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/cmx/] to resources [URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/cmx/], URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/cmx/]]
+08:53:41.838 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx]
+08:53:41.839 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/cmx/*.class]
+08:53:41.842 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com\cmx]
+08:53:41.842 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com\cmx] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/cmx/*.class]
+08:53:41.842 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/cmx/*.class] to resources [file [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx\CmxValidationFrameworkApplicationTests.class]]
+08:53:41.857 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/], URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring-boot/1.0.0/vaadin-spring-boot-1.0.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring/1.0.0/vaadin-spring-1.0.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-server/7.6.3/vaadin-server-7.6.3.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-shared/7.6.3/vaadin-shared-7.6.3.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/streamhtmlparser/streamhtmlparser-jsilver/0.0.10.vaadin1/streamhtmlparser-jsilver-0.0.10.vaadin1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/google/guava/16.0.1.vaadin1/guava-16.0.1.vaadin1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.13/poi-ooxml-schemas-3.13.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar!/com/]]
+08:53:41.859 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com]
+08:53:41.859 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/*.class]
+08:53:41.860 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com]
+08:53:41.861 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/*.class]
+08:53:41.862 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar]
+08:53:41.864 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar]
+08:53:41.866 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar]
+08:53:41.886 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar]
+08:53:41.887 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring-boot/1.0.0/vaadin-spring-boot-1.0.0.jar]
+08:53:41.888 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring/1.0.0/vaadin-spring-1.0.0.jar]
+08:53:41.888 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-server/7.6.3/vaadin-server-7.6.3.jar]
+08:53:41.912 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.jar]
+08:53:41.913 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar]
+08:53:41.915 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-shared/7.6.3/vaadin-shared-7.6.3.jar]
+08:53:41.920 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/streamhtmlparser/streamhtmlparser-jsilver/0.0.10.vaadin1/streamhtmlparser-jsilver-0.0.10.vaadin1.jar]
+08:53:41.921 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/google/guava/16.0.1.vaadin1/guava-16.0.1.vaadin1.jar]
+08:53:41.925 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar]
+08:53:41.926 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+08:53:41.927 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar]
+08:53:41.928 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.13/poi-ooxml-schemas-3.13.jar]
+08:53:41.935 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar]
+08:53:41.936 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+08:53:41.940 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.cmx.intelix.CmxValidationFrameworkApplicationTests]
+08:53:41.940 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:53:41.941 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:53:41.941 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+08:53:41.942 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests], using SpringBootContextLoader
+08:53:41.944 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: class path resource [com/cmx/CmxValidationFrameworkApplicationTests-context.xml] does not exist
+08:53:41.944 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: class path resource [com/cmx/CmxValidationFrameworkApplicationTestsContext.groovy] does not exist
+08:53:41.945 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:53:41.946 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]: CmxValidationFrameworkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:53:41.955 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.cmx.intelix.CmxValidationFrameworkApplicationTests]
+08:53:41.958 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+08:53:41.958 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+08:53:41.959 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+08:53:41.963 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/cmx/] to resources [URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/cmx/], URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/cmx/]]
+08:53:41.963 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx]
+08:53:41.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/cmx/*.class]
+08:53:41.967 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com\cmx]
+08:53:41.967 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com\cmx] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/cmx/*.class]
+08:53:41.969 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/cmx/*.class] to resources [file [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com\cmx\CmxValidationFrameworkApplicationTests.class]]
+08:53:41.972 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/], URL [file:/C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring-boot/1.0.0/vaadin-spring-boot-1.0.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring/1.0.0/vaadin-spring-1.0.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-server/7.6.3/vaadin-server-7.6.3.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-shared/7.6.3/vaadin-shared-7.6.3.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/streamhtmlparser/streamhtmlparser-jsilver/0.0.10.vaadin1/streamhtmlparser-jsilver-0.0.10.vaadin1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/google/guava/16.0.1.vaadin1/guava-16.0.1.vaadin1.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.13/poi-ooxml-schemas-3.13.jar!/com/], URL [jar:file:/C:/Users/shekharp/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar!/com/]]
+08:53:41.975 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com]
+08:53:41.975 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\test-classes\com] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/test-classes/com/*.class]
+08:53:41.976 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com]
+08:53:41.976 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\shekharp\Downloads\cmx-validation-framework\cmx-validation-framework\target\classes\com] for files matching pattern [C:/Users/shekharp/Downloads/cmx-validation-framework/cmx-validation-framework/target/classes/com/*.class]
+08:53:41.977 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar]
+08:53:41.978 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.1/jackson-annotations-2.8.1.jar]
+08:53:41.986 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.1/jackson-databind-2.8.1.jar]
+08:53:41.991 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.1/jackson-core-2.8.1.jar]
+08:53:41.992 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring-boot/1.0.0/vaadin-spring-boot-1.0.0.jar]
+08:53:41.992 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-spring/1.0.0/vaadin-spring-1.0.0.jar]
+08:53:41.993 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-server/7.6.3/vaadin-server-7.6.3.jar]
+08:53:42.003 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-sass-compiler/0.9.13/vaadin-sass-compiler-0.9.13.jar]
+08:53:42.006 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/yahoo/platform/yui/yuicompressor/2.4.8/yuicompressor-2.4.8.jar]
+08:53:42.007 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/vaadin-shared/7.6.3/vaadin-shared-7.6.3.jar]
+08:53:42.022 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/streamhtmlparser/streamhtmlparser-jsilver/0.0.10.vaadin1/streamhtmlparser-jsilver-0.0.10.vaadin1.jar]
+08:53:42.023 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/vaadin/external/google/guava/16.0.1.vaadin1/guava-16.0.1.vaadin1.jar]
+08:53:42.029 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar]
+08:53:42.031 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+08:53:42.041 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar]
+08:53:42.042 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.13/poi-ooxml-schemas-3.13.jar]
+08:53:42.047 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/C:/Users/shekharp/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar]
+08:53:42.049 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+com\cmx\intelix\Error.class
+com\cmx\intelix\Errors.class
+com\cmx\intelix\PersonRepository.class
+com\cmx\intelix\Person.class
+com\cmx\intelix\CmxValidationFrameworkApplication.class
